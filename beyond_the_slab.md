@@ -4,11 +4,11 @@
 
 _(or, a beginner shares a little of what he knows regarding hardware hacking)_
 
-^0-5min (5mins)
+^0-3min (3mins)
 
 ^Today, I hope to do three things:
 
-^Share a little of my experiences as a software dev being scared then turned onto hardware hacking
+^Share a little of my experiences as a software dev being first afraid,  then turned onto hardware hacking
 
 ^Convince my fellow software developers that hardware hacking is a necessary endeavour
 
@@ -28,10 +28,14 @@ _(or, a beginner shares a little of what he knows regarding hardware hacking)_
 ![fit](image/jon_old.png)
 #1997😂
 
+^Just kidding, this was from 1997. 
+
 ---
 
 ![fit](image/jon_old.png)
 #[fit]_and yes, i did own, and subsequently sold beats.com in the early 2000s._
+
+^And yes, i did own, and subsequently sell beats.com, back in the day. T.T
 
 ---
 
@@ -39,7 +43,6 @@ _(or, a beginner shares a little of what he knows regarding hardware hacking)_
 #[fit]_and yes, i did own, and subsequently sold beats.com in the early 2000s._
 #😭
 
-^Just kidding, this was from 1997. And yes, i did own, and subsequently sell beats.com, back in the day. T.T
 
 ---
 
@@ -54,7 +57,7 @@ _(or, a beginner shares a little of what he knows regarding hardware hacking)_
 
 ![150% inline](image/polara.jpg)
 
-^We used Java + OSGI bundles then.
+^We used Java + OSGI bundles back then.
 
 ---
 
@@ -65,9 +68,15 @@ _This means we ~~get to play with~~ test ~~cool~~ nascent technologies and proce
 
 ![autoplay](video/sunglass_vid_bw.mp4)
 
-^We've gone through a few iterations over the years, but basically -- we prototype a lot, whether it be processes, customer experiences, or technologies. We've failed a lot, and have been quite successful and influentual throughout the business. We think this is is because we get to test and validate quickly.
+^We've gone through a few iterations over the years, but basically -- we prototype a lot, whether it be processes, customer experiences, or technologies. 
 
-^We tend to frame ideas based on their Desirability -- do customers want it, Viability -- will it make us money at a rate we'd tolerate, and Feasibility -- can we actually do this in a reasonable time. 
+^We've failed a lot, and have been quite successful and influentual throughout the business. We think this is is because we get to test and validate quickly.
+
+^We tend to frame ideas based on their 
+
+^Desirability -- do customers want it, 
+^Viability -- will it make us money at a rate we'd tolerate, and 
+^Feasibility -- can we actually do this in a reasonable time. 
 
 ^I currently spend most of my time writing code in Javascript, and Objective-C. I've recently started teaching Python so i figured i should learn it as well. We'll actually see a little code here today; it'll be in Javascript, so feel free to head out if this offends. :)
 
@@ -94,7 +103,7 @@ _We blinked an LED or two, then stopped._
 
 #Why hack hardware?
 
-^5-10mins (5mins)
+^3-6mins (3mins)
 
 ^Why would someone want to spend time hacking hardware?
 
@@ -102,13 +111,20 @@ _We blinked an LED or two, then stopped._
 
 ###Because, it's not that hard anymore, and actually fun
 ![inline, fill](image/Douglas_SB2D_scale_model_1942.jpg) ![inline, fill](image/radioshack.jpg) ![inline, fill](image/AdventuresBox.jpg)
-![inline, fill](image/1920radio.jpg)![inline, fill](image/breadboard_computer.jpg)
+![inline, fill](image/1920radio.jpg)![inline, fill](image/breadboard_computer.jpg)![inline,fill](image/bearduino3.jpg)
 
 ^Electronics prototyping's been around for a while, but there are a couple of things that have helped make prototyping new again:
 
-^1) proliferation of electronics platforms. Specifically -- Teddy Ruxpin. These platforms have made it so easy to write software to our electronics. Changing the make-up of a creation on the fly is a lot of fun, and makes our hardware more malleable
+---
 
-^2) it's less expensive to prototype electronics than in the past.
+![autoplay,loop](video/resistor_igniting_firework_fuse_dark.mp4)
+#Why is this space blowing up?
+
+1. _Arduino and friends. These platforms have made it so easy to write software to our electronics. Hardware's more malleable than ever_
+
+1. _Support for higher level languages. We're no longer speaking the language of the "Metal", but in languages in which we're already productive_
+
+1. _It's less expensive to prototype electronics than in the past_
 
 ^We're nearly only limited by our imagination when it comes to the ideas we can actually test! It's never been easier to go from 
 
@@ -122,95 +138,58 @@ _We blinked an LED or two, then stopped._
 
 ---
 
-####Why hack hardware?
-
-![](image/yosemite0.JPG)
-##_To escape from Terminal World!_
-###_Remove the constraint of the glass slab to solve problems._
-
----
-
-![](image/bunchaslabs.jpg)
-
-_"It is years into the future. All the wonderful everyday objects we once treasured have disappeared, gobbled up by an unstoppable interface: 
-a slim slab of black glass."_
-
---David Rose, "Enchanted Objects"
-
-^Not every problem has a solution that requires an expensive hand-held slab to solve. 
-
----
-####Why hack hardware?
-
-![](video/kelvindoe_dark.mp4)
-#_Because electronics is for everyone!_
-* _Do it to learn_
-* _Do it to teach!_
-* _Cheaper, computing potentially gets in the hands of more folk_
-
-^I've found that i've so far learned about electronics in a way that I wouldn't have, if software were not involved. 
-
-^Teaching is something sorely needed in the technology arena. Why not you?
-
----
-
-![original](image/orcs.jpg)
-
-![inline, fill](image/sting_bilbo.jpg)
-
-_(there can be no app for this)_
-
-![inline, fill](image/sting_glowing.jpg)
-
-^because there can be no app for this.
-
-^imagine Bilbo fumbling to grab his phone, starting the Orc Sensor app, hastily trying to discard it once the thing glows. 
-
-^NO. Bilbo has no time for being distracted by his mobile device. He wants sting to let him know what's up as soon as possible!
-
----
-
-![](image/pebble_prototype.jpg)
-![](image/pebble_growedup.png)
-##_For Prototyping!_
-
-^Why have someone else build your prototypes when you can take a little time and learn to do it yourself
-
-^On the left one of the prototypes for what became the Pebble watch. You don't have to have a large R&D arm to quickly prove out feasibility, or even desirability.
-
----
 ![](image/arduinorainbow_vividlily_tumblr.jpg)
 ##_Physical Computing_
 ###_What is it?_
 
-^10-20mins (10mins)
+^6-13mins (7mins)
 
 ^So, what are we talking about here? Physical Computing Platforms
 
 --- 
 
-![](image/devices.jpg)
 ##Here's a short list
-_Arduino: Uno,Nano,LillyPad,Duemilanove,..., Beaglebone, Beaglebone Black, ChipKit, LightBlue Bean, LPCXpresso, Netduino (.Net Micro Framework!), Parallax Propeller Activity Board, Raspberry Pi, Raspberry Pi B, Seeed Linkit (GPRS even!), Spark Core (OTA programming), Tessel, Teensy, TI LaunchPad, Trinket, Twine, Beacons (Bluetooth)_
+_Arduino: Uno,Nano,LillyPad,Duemilanove,..., Beaglebone, Beaglebone Black, ChipKit, Edison, LightBlue Bean, LPCXpresso, Netduino (.Net Micro Framework!), Parallax Propeller Activity Board, Raspberry Pi, Raspberry Pi B, Seeed Linkit (GPRS even!), Spark Core (OTA programming), Tessel, Teensy, TI LaunchPad, Trinket, Twine, Beacons (Bluetooth)_
 
-^There are so many boards to choose from, and they're all not Arduino.:) Depending on what you want to prototype, you may want a little more to start with, or want a form factor that will work better with what you're doing
+^There are so many boards to choose from, and they're all not Arduino.:) Depending on what you want to prototype, you may want a little more to start with, or want a form factor that will work better with what you're doing.
 
 ---
 
 ![](image/412_na-46-apollo-guidance-computer.jpg)
 
 ###_Kinds of devices_
-* _"classic" Platforms (Arduino & variants)_
-* _"mini computers” (BeagleBone, Raspberry Pi series)_
-* _wireless platforms (Spark Core, Lightblue Bean, twine)_
+* _Microcontrollers (Arduino & variants)_
+* _"Tiny computers” (BeagleBone, Raspberry Pi series)_
+* _Wireless microcontrollers (Spark Core, Lightblue Bean, twine)_
 * _Language-specific boards (Tessel)_
 * _Specialty Boards (LillyPad Arduino is sewable, can be washed)_
 
 ^First--about this photo--How powerful are these boards? They are 4~16 times more powerful than the initial IBM PC, and 16~64 times more powerful than the Apollo 11 computer! (http://embeddedcomputing.weebly.com/)
 
-^There are quite a few kinds of devices. I'm not aware of nomenclature that separates them, so i made some up here.
+---
 
-^Classic platforms don't have a full-on computer, but support pushing code to the device. They also are usually modular, and support, in the case of Arduino, shields, and other more full-featured modules. Arduino is important because: 1) it's the one that broke out this movement of hardware hacking for the masses 2) The hardware spec is Open Source, which has led to quite a bit of innovation in the space.
+#The key to a legit board:  __GPIO__
+
+![right](image/bebox_back.jpg)
+
+General Purpose Input/Output
+<sub>(anyone remember the BeBox? GEEKPORT!)</sub>
+
+^GPIO is the thing that allows you to talk to the various components you'll end up spending your money on. It separates the sensor-based
+
+---
+
+![](image/devices.jpg)
+###_Kinds of devices_
+* _Microcontrollers (Arduino & variants)_
+* _"Tiny computers” (BeagleBone, Raspberry Pi series)_
+* _Wireless microcontrollers (Spark Core, Lightblue Bean, twine)_
+* _Language-specific boards (Tessel)_
+* _Specialty Boards (LillyPad Arduino is sewable, can be washed)_
+
+^There are quite a few kinds of devices. 
+
+^Microcontrollers allow one to push code onto it
 
 ^Mini Computers like BeagleBone, Raspberry Pi series, can run a 3rd party operating system (ChromeOS, Linux, whatever you can stick on it) usually have USB ports, maybe ethernet, and a HDMI output built-in. They're pretty cool because You can do stuff like maybe set up a little database on it, and a web server, or any other thing that a "regular computer" can do (albeit slower of course)
 
@@ -218,31 +197,11 @@ _Arduino: Uno,Nano,LillyPad,Duemilanove,..., Beaglebone, Beaglebone Black, ChipK
 
 ---
 
-* beacons? (Estimote,Motorola,)
-* programmable toys (sphereo, not in scope for this discussion)
-
-^beacons are an entirely separate discussion. :)
-
-^sphereo and the like are toys that do a prescribed set of stuff, and have APIs available. The geekiest among us have taken them apart and augmented their functionality, however, sometimes using some of the above platforms. :)
-
----
-
-#The key to a legit board -- __GPIO__
-
-![inline](image/bebox_back.jpg)
-
-<sub>General Purpose Input/Output</sub>
-<sub><sub>(anyone remember the BeBox? GEEKPORT!)</sub></sub>
-
-^GPIO is the thing that allows you to talk to the various components you'll end up spending your money on. It separates the sensor-based
-
----
-
 ###_Necessary Skill Sets_
 ![autoplay](video/nunchaku.mp4)
 
 ####_The Basics:_
-
+ 
 * _Computer hacking skills_
 * _Desire skills_
 * _Google skills_
@@ -258,143 +217,16 @@ _Arduino: Uno,Nano,LillyPad,Duemilanove,..., Beaglebone, Beaglebone Black, ChipK
 
 ---
 
-###Concepts/Considerations 
-
-^20-35mins (15mins)
-
-^Power: voltage (V), current (I) and resistance (r).
-
----
-
-![](image/2560px-Componentes.jpg)
-
-###_Components/Modules--They behave kinda like software_
-* _Components follow composition._ 
-
-^As in software, larger components are made out of smaller components. I mention this because you may find yourself struggling to get a piece of a circuit going, and realize that there's a module (or shield or plate) for that.
-
-^Inheritance? kinda. I mean, there are different kinds of LEDs, Servos, and the like
-
----
-
-![](image/2560px-Componentes.jpg)
-###_Components/Modules--They behave kinda like software_
-* _Components follow composition._ 
-* _Components have interfaces_
-
-^Like any piece of software, there's an interface, whether it be good or bad.
-
----
-
-![](image/2560px-Componentes.jpg)
-###_Components/Modules--They behave kinda like software_
-* _Components follow composition._ 
-* _Components have interfaces_
-* _Some larger components are standardized, some aren't_
-
-^Sometimes there are standards for either the interface, or the data passed to and from it, and sometimes components have proprietary interfaces, just like in the software world.
-
----
-
-![](image/2560px-Componentes.jpg)
-###_Components/Modules--They behave kinda like software_
-* _There are a lot of larger components available_
-
-
-^As in software, or just about anything, hardware consists of components. You've seen these, they usualy make up other components. The space is vast enough these days that you'll spend a lot more time dreaming up your idea than doing complex wiring to create a component from scratch (unless that's your thing--then go for it!). 
-
-
----
-
-![](image/2560px-Componentes.jpg)
-###_Components/Modules--They behave kinda like software_
-* _There are a lot of larger components available_
-* _Components usually come with corresponding software libraries to interface with these_
- * _cameras, servos, sensors, advanced controllers_
-
-
-^Each of these components have interfaces to make them *do* something. Much of the time they're standard, but, like in the software world, there are deviations due to varying factors (companies trying to differentiate themselves, skill levels of component makers, opinions of component makers). The specification documentation is your friend! 
-
-
----
-
-![](image/2560px-Componentes.jpg)
-###Components/Modules--They works kinda like software
-* _There are a lot of larger components available_
-* _Components usually come with corresponding software libraries to interface with these_
- * _cameras, servos, sensors, advanced controllers_
-* _Design, Run, Refactor_
-
-^As with software, you'll design your prototype (usually using drawings/schematic), run it, and learn & refactor your design.
-
----
-
-#Hardware is different than software...
-* _More expensive to integrate_
-
-^It takes time to build circuits, more than with software. If you break something, you have to physically replace it. The cost of failure is slightly higher. But when you buy in bulk, this becomes pennies in many cases. Definitely less than hundreds of dollars, as in the past.
-
----
-
-#Hardware is different than software...
-* _More expensive to integrate_
-* _It's slightly scarier (and exciting) than software, because you can blow something up._
-
-^Especially when dealing with AC power. Most of the boards you'll encounter, however, will be rooted firmly in DC power. To start, let's stay away from AC power. :-)
-
----
-
-#Hardware is different than software...
-* _More expensive to integrate_
-* _It's slightly scarier (and exciting) than software, because you can blow something up._
-* _But most parts are kinda cheap these days_
-
----
-
-![](video/resistor_igniting_firework_fuse.mp4)
-#[fit]_And heck, you can even use that fact to your advantage._
-
----
-
-#Hardware is different than software...
-* _Testing *seems* more functional (at least I haven't found a good way to "unit test" components well)_
-* _Things you'll eventually want that'll be helpful_
- * _Multimeter_
-
-^what else, y'all? :)
-
----
-
-#Hardware Interface Design
-
-* _Who or what is consuming?_
-* _How much coupling can you tolerate?_
-
-^Sometimes a human will be touching it directly, sometimes it's another system. It's the same with software, so think about that. Granted its more likely when you're prototyping you want someone to play with what you built, so this is when it's useful to maybe study other designs, and even pair with an Industrial designer (or someone with that background) to chat about this stuff (they're easier to find than you think...well for me?:) -- at least you now know what to Google.
-
-^With any prototyping, there's a question of fidelity...there are plenty of things you can just throw together (like for todays demo ;-) or you'll need to put something together to put in front of customers to test. [some rules of thumb here--talk to UX folk]
-
----
-
-#Software Interface Design
-
-* _Who or what is consuming?_
-* _How much coupling can you tolerate?_
-* _HTML, Mobile native?_
-* _Data format? (JSON,XML,...)_
-
-^If it's a human consuming, you'll want to have a nice mobile or desktop interface no?
-
-^If it's another machine, you'll have to think of the data format. 
-
----
-
 Wanna see something IRL?
 
 ![right](image/lightdimmer.gif)
 
-^35-45mins (10mins)
-^So, back to the light dimmer. Why was i not enthusiastic about getting into hardware hacking?
+^13-30mins (17mins)
+^So, back to the light dimmer. I got a request to do some kind of automatic dimming of a light when someone walked into a room.
+
+^Yeah we coulda purchased a Phillips Hue system, but we weren't sure if we wanted to do this. This was an opportunity to build to learn. So, like macguyver, we were like "lightbulb, dimmer, arduino, what can we do". 
+
+^I have the luck to share the lab with an industrial designer, and an electric geek, so they were able to help me wire a dimmer, and create a simple case that would mount a servo on a dimmer to turn it, like a baby robot!
 
 ---
 
@@ -435,6 +267,8 @@ board.on("ready", function() {
 
 ^oh yeah we're at code camp, right? I used a library, Johnny Five, which allows us to talk to Arduino via Javascript. This code's on my GitHhub.
 
+^it's quite straightforward; This is an interactive version. I ended up "scriptifying" it by using a command line library.
+
 ---
 
 #Other ways I could have done it
@@ -449,30 +283,22 @@ board.on("ready", function() {
 
 #Door Unlock Mechanism
 * _12VDC Solenoid_
+* _12V Power supply_
+* _Relay to condition our power from the Arduino's 3.3V to 12V_
 
 ![right](image/IMG_0044_2.jpg)
 
-^The squiggly thing
+^The thing with BCE is a transistor, 
 
----
+^The zigzags are resistors, and 
 
-#Door Unlock Mechanism
-* _12VDC Solenoid_
-* _12V Power supply hacked to plug into_
+^The curlycue is a solenoid, with a diode thrown in so that things don't spark when we throw power at the diode. 
 
-![right](image/IMG_0044_2.jpg)
+^That's the part I messed up. I think i used too small of a diode or somesuch. 
 
----
+^Then i realized I was trying to build a door switch, and not reinvent the relay. 
 
-#Door Unlock Mechanism
-* _12VDC Solenoid_
-* _12V Power supply hacked to plug into_
-* _Tessel Relay Module_
-  * _originally built a relay from scratch, but it was messy, and burnt up, but it's possible for people who can properly implement that thing to the right_
-
-![right](image/IMG_0044_2.jpg)
-
-^The thing with BCE is a transistor, the zigzags are resistors, and the curlycue is a solenoid, with a diode thrown in so that things don't spark when we throw power at the diode. That's the part I messed up. I think i used too small of a diode or somesuch. That is for a later learning, because I was trying to build a door switch, not necessarily reinvent the relay. Tradeoffs!
+^So I bought a relay module for the Tessel.
 
 ---
 
@@ -509,7 +335,11 @@ relay.on('ready', function relayReady () {
 });
 ```
 
-^So, let's talk about this for a second. Tessel is cool in that it runs javascript. I know javascript! You want to keep your code pretty small, but still quickly get work done, so i used a tiny-router module to expose endpoints that would do the main function of unlocking.
+^I'm gonna talk about the Tessel for a second.
+
+^Tessel is cool in that it runs javascript. I know javascript! 
+
+^You want to keep your code pretty small, but still quickly get work done, so i used a tiny-router module to expose endpoints that would do the main function of unlocking.
 
 ^I declare my relay class with the relaylib line, it emits 'ready' when ready, and then i set up my endpoint. When it comes time to turn on the relay, the API is super straightforward: relay.turnOn()
 
@@ -630,6 +460,8 @@ relay.on('ready', function relayReady () {
 * _Is Duck tape GEFN?_
 * _Often, you'll want to move to PCB while you're still prototyping_
 
+^30-35mins (5mins)
+
 ^You'll want to think about your audience when you decide whether or not to refine your prototype. In our case, for the Light Bulb, we wanted people to kind of hear the servo (for whatever reason we thought that was cool), but wanted to hide some key pieces to not make it look too shoddy. We also didn't want to cause an accident in front of our audience, so it was important to encase the dimmer in the proper enclosure!
 
 ^3D printing is a fantastic luxury for helping you shape up your prototypes.
@@ -667,15 +499,19 @@ relay.on('ready', function relayReady () {
 ---
 
 #Resources
-* _Learning Stuff: Youtube, duh_
+* _Learning Stuff:_ 
+  * _http://www.allaboutcircuits.com/_
+  * _Youtube, duh_
 * _Buying stuff: _Adafruit_, _SparkFun_, _Seeed Studio_
-* _http://iot.ieee.org/_
 * _Metrix Create Space_
-* _NyTec Innovation Center_
+* _http://iot.ieee.org/_
+
 
 ^"Make" has a great Youtube channel, but there are so many hobbyists showing off their projects, you'll find what you need.
 
 ^Notice i haven't said the words "Internet of Things" much. Sorry. :) This last link may be a good place to keep abreast of what's happening in this world that you've begun o dabble in.
+
+^NyTec Innovation Center
 
 ---
 
@@ -693,10 +529,5 @@ relay.on('ready', function relayReady () {
 ---
 
 #Shouts to my lab folk
-* Paul Payne
-* Mark Selander
-* Cheri Thompson
-* Brett Wagner
-and of course
-* Nordstrom 
+Marius Grigoriu, Paul Payne, Mark Selander, Erin Shellman, Cheri Thompson, Brett Wagner, Nbitu Yilma
 <sup>(Lab's hiring, like everyone else ;-)</sup>
