@@ -4,7 +4,7 @@
 
 _(or, a beginner shares a little of what he knows regarding hardware hacking)_
 
-^0-3min (3mins)
+^0-5min (5mins)
 
 ^Today, I hope to do three things:
 
@@ -47,7 +47,7 @@ _(or, a beginner shares a little of what he knows regarding hardware hacking)_
 ---
 
 ![fit](image/futurama_silhouette.jpg)
-#[fit]I've been writing software for around 20 years. 
+#[fit]I've been writing software professionally for over 15 years. 
  
 ^I've spent most of my time writing software that runs on the Internet, whether it be CGI in with C then  Perl, Java, Shell scripts, Javascript...I worked for a few years at an e-commerce startup, which eventually brought me to Seattle. 
 
@@ -68,32 +68,31 @@ _This means we ~~get to play with~~ test ~~cool~~ nascent technologies and proce
 
 ![autoplay](video/sunglass_vid_bw.mp4)
 
-^We've gone through a few iterations over the years, but basically -- we prototype a lot, whether it be processes, customer experiences, or technologies. 
-
-^We've failed a lot, and have been quite successful and influentual throughout the business. We think this is is because we get to test and validate quickly.
-
-^We tend to frame ideas based on their 
-
-^Desirability -- do customers want it, 
-^Viability -- will it make us money at a rate we'd tolerate, and 
-^Feasibility -- can we actually do this in a reasonable time. 
+^We've gone through a few iterations over the years, but basically -- we prototype a lot, whether it be processes, customer experiences, or technologies. We fail often, to learn, to succeed.
 
 ^I currently spend most of my time writing code in Javascript, and Objective-C. I've recently started teaching Python so i figured i should learn it as well. We'll actually see a little code here today; it'll be in Javascript, so feel free to head out if this offends. :)
 
 ---
 
-![](image/treadmill.jpg)
-
 _I picked up an Arduino for my kid at Christmas a few years back, thinking, "we'll learn it together", and that i could also try some things out at work._
 
-_We started!_
 
-_We blinked an LED or two, then stopped._
+---
+
+![](image/coil.gif)
+
+#_We started!_
+
+---
+
+![](image/treadmill.jpg)
+
+_Actually, we blinked an LED or two, then stopped. I was done._
 
 ---
 
 ![right](image/lightdimmer.gif)
-#Then, at work, someone asked me to dim some lights.
+##Then, at work, someone asked me to dim some lights.
 
 ^I'd watched in wonder as colleagues hacked hardware for experiements, then finally had an opportunity to try it out for a project. I'll talk about that in a second.
 
@@ -103,7 +102,7 @@ _We blinked an LED or two, then stopped._
 
 #Why hack hardware?
 
-^3-6mins (3mins)
+^5-8mins (3mins)
 
 ^Why would someone want to spend time hacking hardware?
 
@@ -113,10 +112,9 @@ _We blinked an LED or two, then stopped._
 ![inline, fill](image/Douglas_SB2D_scale_model_1942.jpg) ![inline, fill](image/radioshack.jpg) ![inline, fill](image/AdventuresBox.jpg)
 ![inline, fill](image/1920radio.jpg)![inline, fill](image/breadboard_computer.jpg)![inline,fill](image/bearduino3.jpg)
 
-^Electronics prototyping's been around for a while, but there are a couple of things that have helped make prototyping new again:
+^Electronics prototyping's been around for a while, but there are a couple of things that have helped make prototyping blow up!
 
 ---
-
 ![autoplay,loop](video/resistor_igniting_firework_fuse_dark.mp4)
 #Why is this space blowing up?
 
@@ -126,25 +124,33 @@ _We blinked an LED or two, then stopped._
 
 1. _It's less expensive to prototype electronics than in the past_
 
-^We're nearly only limited by our imagination when it comes to the ideas we can actually test! It's never been easier to go from 
+^So, why is this space blowing up? Among other reasons, here are three:
+
+^-Arduino 
+
+^-Higher Level Language Support
+
+^-Cost
+
+^It's never been easier to go from 
 
 ^"wouldn't it be cool if" to 
 
-^"let's see if it really would be cool", or 
+^"let's see if people really think it's cool", or 
 
 ^"i wonder if we can" to 
 
-^"let's try and build it then"
+^"let's try and build it and see!"
 
 ---
 
 ![](image/arduinorainbow_vividlily_tumblr.jpg)
-##_Physical Computing_
-###_What is it?_
+##_The Landscape_
+###_What's available?_
 
-^6-13mins (7mins)
+^8-13mins (5mins)
 
-^So, what are we talking about here? Physical Computing Platforms
+^I want to take a few minutes to talk about the landscape. What's available out there for us? The field seriously has blown up. Here's a short list...
 
 --- 
 
@@ -155,57 +161,35 @@ _Arduino: Uno,Nano,LillyPad,Duemilanove,..., Beaglebone, Beaglebone Black, ChipK
 
 ---
 
-![](image/412_na-46-apollo-guidance-computer.jpg)
-
-###_Kinds of devices_
-* _Microcontrollers (Arduino & variants)_
-* _"Tiny computers” (BeagleBone, Raspberry Pi series)_
-* _Wireless microcontrollers (Spark Core, Lightblue Bean, twine)_
-* _Language-specific boards (Tessel)_
-* _Specialty Boards (LillyPad Arduino is sewable, can be washed)_
-
-^First--about this photo--How powerful are these boards? They are 4~16 times more powerful than the initial IBM PC, and 16~64 times more powerful than the Apollo 11 computer! (http://embeddedcomputing.weebly.com/)
-
----
-
-#The key to a legit board:  __GPIO__
-
-![right](image/bebox_back.jpg)
-
-General Purpose Input/Output
-<sub>(anyone remember the BeBox? GEEKPORT!)</sub>
-
-^GPIO is the thing that allows you to talk to the various components you'll end up spending your money on. It separates the sensor-based
-
----
-
 ![](image/devices.jpg)
 ###_Kinds of devices_
 * _Microcontrollers (Arduino & variants)_
 * _"Tiny computers” (BeagleBone, Raspberry Pi series)_
-* _Wireless microcontrollers (Spark Core, Lightblue Bean, twine)_
-* _Language-specific boards (Tessel)_
-* _Specialty Boards (LillyPad Arduino is sewable, can be washed)_
+* _Wireless microcontrollers (Spark Core, Lightblue Bean)_
+* _Language-specific boards (Tessel,Netduino)_
+* _Specialty Boards (LillyPad Arduino)_
 
 ^There are quite a few kinds of devices. 
 
-^Microcontrollers allow one to push code onto it
+^Microcontrollers allow a developer to push code onto it. They don't have all the facilities of a full computer, but are the basis of most of this stuff.
 
 ^Mini Computers like BeagleBone, Raspberry Pi series, can run a 3rd party operating system (ChromeOS, Linux, whatever you can stick on it) usually have USB ports, maybe ethernet, and a HDMI output built-in. They're pretty cool because You can do stuff like maybe set up a little database on it, and a web server, or any other thing that a "regular computer" can do (albeit slower of course)
 
-^Sensor based -- vendors have tried to add value by creating devices with sensors in them (mainly because they can). stuff like accelerometers, maybe a light sensor...and many of them support loading programs onto them without having to be tethered. Two mentioned have GPIOs, the Twine (to my current knowlege) has no GPIO, but supports proprietary modules
+^Wireless microcontrollers allow you to program them remotely, using either Wifi or Bluetooth LE in the case of the Bean
+
+^Specialty Boards like the LillyPad Arduino was specifically made so that it can be sewed onto garments, and is purportedly washable
 
 ---
 
 ###_Necessary Skill Sets_
-![autoplay](video/nunchaku.mp4)
-
-####_The Basics:_
+![autoplay](video/nunchaku_dark_silent.mp4)
  
 * _Computer hacking skills_
 * _Desire skills_
 * _Google skills_
 * _Asking for help skills_
+
+^What level developer do you need to be? What skills should i posess?
 
 ^Desire -- my hope is that this talk will get you interested enough to want to grab a board and play with it
 
@@ -217,11 +201,11 @@ General Purpose Input/Output
 
 ---
 
-Wanna see something IRL?
+So, wanna see something IRL?
 
 ![right](image/lightdimmer.gif)
 
-^13-30mins (17mins)
+^13-28mins (15mins)
 ^So, back to the light dimmer. I got a request to do some kind of automatic dimming of a light when someone walked into a room.
 
 ^Yeah we coulda purchased a Phillips Hue system, but we weren't sure if we wanted to do this. This was an opportunity to build to learn. So, like macguyver, we were like "lightbulb, dimmer, arduino, what can we do". 
@@ -265,28 +249,34 @@ board.on("ready", function() {
 });
 ```
 
-^oh yeah we're at code camp, right? I used a library, Johnny Five, which allows us to talk to Arduino via Javascript. This code's on my GitHhub.
+^You'll be using a breadboard for most of your projects. Don't worry--if you order a "Kit", you'll get most of what you need to get started.
 
-^it's quite straightforward; This is an interactive version. I ended up "scriptifying" it by using a command line library.
+^I used a library, Johnny Five, which allows us to talk to Arduino via Javascript. As you can see, the code is pretty simple (and is on my GitHub if you want to grab it).
+
+^This is an interactive version of a program that I ended up "scriptifying" it by using a command line library, so another process could initiate it.
 
 ---
 
 #Other ways I could have done it
-* _Work directly with AC -- but did you not hear what i said above?_
+* _Work directly with AC to dim the light switch_
 * _Used LED Lighting, MOSFET or somesuch to boost electricity needed_
 
-^I'm personally not ready to work with AC unattended. But plan on it, one day.
+^A quick note--Most of the work you'll do in the beginning will be affecting Direct current. I had a colleague explain to me how I had to write to the arduino to affect the AC of the lighth bulb, and it was a bit more complicated than I wanted to do for a first project. 
 
-^LED Lighting is relatively easy to light from one of these boards, with the help of something to give us enough power to run a bunch of it. 
+^That said, I could have found some 12VDC LED Lighting. It's a little easier to handle, and probably visually would have given me a more dramatic dimming effect.
+
+^In the end, it was fun to come up with a baby robot.
 
 ---
 
-#Door Unlock Mechanism
+#Door Unlock Mechanism--from legit schematic to project
 * _12VDC Solenoid_
 * _12V Power supply_
 * _Relay to condition our power from the Arduino's 3.3V to 12V_
 
 ![right](image/IMG_0044_2.jpg)
+
+^Let's look at another example of something built with another board, the Tessel.
 
 ^The thing with BCE is a transistor, 
 
@@ -439,7 +429,9 @@ relay.on('ready', function relayReady () {
 
 #Other ways I could have done it
 * _Use Raspberry Pi or BeagleBone, add a DB to store/sync unlock codes with a central service_
-* _Use Bluetooth module instead of Built-in WiFi_ (but i was cheap, and in learning mode)
+* _Use Bluetooth module instead of Built-in WiFi_ 
+
+^I could have tried the Bluetooth module, but i was cheap, and in learning mode (since then i've acquired the BTLE module :-)
 
 ---
 
@@ -460,9 +452,13 @@ relay.on('ready', function relayReady () {
 * _Is Duck tape GEFN?_
 * _Often, you'll want to move to PCB while you're still prototyping_
 
-^30-35mins (5mins)
+^28-35mins (7mins)
 
-^You'll want to think about your audience when you decide whether or not to refine your prototype. In our case, for the Light Bulb, we wanted people to kind of hear the servo (for whatever reason we thought that was cool), but wanted to hide some key pieces to not make it look too shoddy. We also didn't want to cause an accident in front of our audience, so it was important to encase the dimmer in the proper enclosure!
+^You'll want to think about your audience when you decide whether or not to refine your prototype. 
+
+^In our case, for the Light Bulb, we wanted people to kind of hear the servo (for whatever reason we thought that was cool), but wanted to hide some key pieces to not make it look too shoddy. 
+
+^We also didn't want to cause an accident in front of our audience, so it was important to encase the dimmer in the proper enclosure!
 
 ^3D printing is a fantastic luxury for helping you shape up your prototypes.
 
@@ -475,7 +471,7 @@ relay.on('ready', function relayReady () {
 * _How to draw and read schematics_
 * _Shields_, _Capes_, _Plates, oh my (also, Modules)_
 * _Component foo_
-  _<sub>capacitors, diodes, resistors, MOSFETs, all that jazz, and why they're important. You'll run into some earlier than others. Hint: learn resistance first</sub>_
+  _<sub>capacitors, diodes, resistors, MOSFETs, all that jazz, and why they're important. You'll run into some earlier than others.</sub>_
 * _How to make your creation self-contained_
   * _Look into ATTiny_
   * _External Power Supplies_
@@ -485,10 +481,9 @@ relay.on('ready', function relayReady () {
 ![](image/IMG_0859.png)
 #My recommendations 👍
 * Grab an Arduino (Uno or Mini) _Kit_  to start
-* Maybe Try out TI Launchpad -- Free stuff
-* If you're into Javascript, grab a Tessel
+* Grab a Raspberry Pi or a Tessel -- you'll start to take your creations "off the screen"
 * Find a local group!
-* Do it. 
+* Ask for help
 
 ^Grab an Arduino (Uno or Mini) _Kit_  to start. Kits usually come with breadboard,LEDs,few other components, and usually a book
 ^Maybe Try out TI Launchpad. TI has a habit of providing samples for free, because they love eventually selling in bulk
@@ -496,16 +491,16 @@ relay.on('ready', function relayReady () {
 ^There's a board (and/or module) that'll give you the size and features you need.
 ^There are several "maker" meetups in the area, and places in the area to go and build. You'll want to look up "Maker spaces"
 
+^I can't stress this enough. As you're learning this you're going to have questions of feasibility. The answer, as in software, is usually "yes, with tradeoffs" :) but having someone that knows the electronics space can help you get unstuck quicker than yourself.
+
 ---
 
 #Resources
-* _Learning Stuff:_ 
-  * _http://www.allaboutcircuits.com/_
-  * _Youtube, duh_
+* _Learning Stuff: www.allaboutcircuits.com_, _Youtube, duh_
 * _Buying stuff: _Adafruit_, _SparkFun_, _Seeed Studio_
 * _Metrix Create Space_
+* _Ada Technical Books_
 * _http://iot.ieee.org/_
-
 
 ^"Make" has a great Youtube channel, but there are so many hobbyists showing off their projects, you'll find what you need.
 
@@ -527,7 +522,10 @@ relay.on('ready', function relayReady () {
 #Questions?
 
 ---
+#Thanks!
+_jon.madison@nordstrom.com_
+_jonmadison on most social networks_
 
-#Shouts to my lab folk
-Marius Grigoriu, Paul Payne, Mark Selander, Erin Shellman, Cheri Thompson, Brett Wagner, Nbitu Yilma
-<sup>(Lab's hiring, like everyone else ;-)</sup>
+#Shouts to my nord folk
+_Marius Grigoriu, Paul Payne, Mark Selander, Erin Shellman, Cheri Thompson, Brett Wagner, Nbitu Yilma_
+<sup>(The Lab's hiring, like everyone else ;-)</sup>
