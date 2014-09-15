@@ -213,8 +213,9 @@ So, wanna see something IRL?
 ^I have the luck to share the lab with an industrial designer, and an electric geek, so they were able to help me wire a dimmer, and create a simple case that would mount a servo on a dimmer to turn it, like a baby robot!
 
 ---
-
 ![right](image/fritzing_servo.png)
+
+<sub>https://github.com/jonmadison/arduino-servo-control</sub>
 
 ```javascript
 var five = require("johnny-five"), 
