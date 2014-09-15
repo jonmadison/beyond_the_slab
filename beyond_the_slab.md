@@ -66,7 +66,7 @@ _We focus on testing things that the business may find too risky to spend a lot 
 
 _This means we ~~get to play with~~ test ~~cool~~ nascent technologies and processes every now and then in order to get there._
 
-![autoplay](video/sunglass_vid_bw.mp4)
+![](image/flashbuild.png)
 
 ^We've gone through a few iterations over the years, but basically -- we prototype a lot, whether it be processes, customer experiences, or technologies. We fail often, to learn, to succeed.
 
@@ -115,7 +115,7 @@ _Actually, we blinked an LED or two, then stopped. I was done._
 ^Electronics prototyping's been around for a while, but there are a couple of things that have helped make prototyping blow up!
 
 ---
-![autoplay,loop](video/resistor_igniting_firework_fuse_dark.mp4)
+![](image/resistor.png)
 #Why is this space blowing up?
 
 1. _Arduino and friends. These platforms have made it so easy to write software to our electronics. Hardware's more malleable than ever_
@@ -182,7 +182,7 @@ _Arduino: Uno,Nano,LillyPad,Duemilanove,..., Beaglebone, Beaglebone Black, ChipK
 ---
 
 ###_Necessary Skill Sets_
-![autoplay](video/nunchaku_dark_silent.mp4)
+![](image/skills.jpg)
  
 * _Computer hacking skills_
 * _Desire skills_
@@ -338,7 +338,7 @@ relay.on('ready', function relayReady () {
 
 ---
 
-![right](video/IMG_0049.mp4)
+![right](image/keyo.png)
 
 ```javascript
 <html>
