@@ -498,7 +498,8 @@ relay.on('ready', function relayReady () {
 
 #Resources
 * _Learning Stuff: www.allaboutcircuits.com_, _Youtube, duh_
-* _Buying stuff: _Adafruit_, _SparkFun_, _Seeed Studio_
+* http://bocoup.com/weblog/category/johnny-five/ 
+* _Buying stuff: Adafruit, SparkFun, Seeed Studio_
 * _Metrix Create Space_
 * _Ada Technical Books_
 * _http://iot.ieee.org/_
